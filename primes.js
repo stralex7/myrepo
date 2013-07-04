@@ -15,5 +15,5 @@ while(primes.length<100) {
             } i+=2;
 }
 fs.writeFileSync(outfile, primes.join(','));
-//console.log(primes.join(','));
+console.log(primes.join(','));
 console.log("The number of records: "+primes.length); 
